@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	MaxPluginPackageSize = int64(52428800) // 50MB
+	MaxPluginPackageSize = int64(536870912) // 512MB
 )
 
 func PackagePlugin(inputPath string, outputPath string) {
